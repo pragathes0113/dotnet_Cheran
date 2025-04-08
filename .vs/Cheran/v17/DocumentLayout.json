@@ -121,7 +121,7 @@
               "RelativeDocumentMoniker": "VHMS\\VHMS.Web\\UserDefined_Js\\jRate.js",
               "ToolTip": "E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Web\\UserDefined_Js\\jRate.js",
               "RelativeToolTip": "VHMS\\VHMS.Web\\UserDefined_Js\\jRate.js",
-              "ViewState": "AgIAAL8AAAAAAAAAAAAiwMAAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAL8AAAAAAAAAAAAiwMQAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-04-05T15:47:32.537Z",
               "IsPinned": true,
@@ -221,8 +221,7 @@
               "RelativeToolTip": "VHMS\\VHMS.DataAccess\\Master\\Rate.cs",
               "ViewState": "AgIAAEoBAAAAAAAAAAAnwEwBAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T11:49:15.737Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-05T11:49:15.737Z"
             },
             {
               "$type": "Document",

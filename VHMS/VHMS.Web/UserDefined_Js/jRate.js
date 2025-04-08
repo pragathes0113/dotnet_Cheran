@@ -194,7 +194,7 @@ function ClearRateTab() {
     $("#txtTwoThousandNineHundred").val("0");
     $("#txtTwoThousandNineHundredAmount").val("0");
 }
-
+//
 
 $("#btnSave,#btnUpdate").click(function () {
 
