@@ -1,0 +1,375 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Web Live Project\\dotnet_Cheran\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA8C4A4-DDFD-42F8-8FB1-B60B690BD69B}|E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Web|e:\\web live project\\dotnet_cheran\\vhms\\vhms.web\\userdefined_js\\jrate.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{DEA8C4A4-DDFD-42F8-8FB1-B60B690BD69B}|E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Web|solutionrelative:vhms\\vhms.web\\userdefined_js\\jrate.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA8C4A4-DDFD-42F8-8FB1-B60B690BD69B}|E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Web|E:\\Web Live Project\\dotnet_Cheran\\vhms\\vhms.web\\frmbilling.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{DEA8C4A4-DDFD-42F8-8FB1-B60B690BD69B}|E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Web|solutionrelative:vhms\\vhms.web\\frmbilling.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA8C4A4-DDFD-42F8-8FB1-B60B690BD69B}|E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Web|E:\\Web Live Project\\dotnet_Cheran\\vhms\\vhms.web\\frmbilling.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEA8C4A4-DDFD-42F8-8FB1-B60B690BD69B}|E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Web|solutionrelative:vhms\\vhms.web\\frmbilling.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA8C4A4-DDFD-42F8-8FB1-B60B690BD69B}|E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Web|E:\\Web Live Project\\dotnet_Cheran\\vhms\\vhms.web\\frmrate.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{DEA8C4A4-DDFD-42F8-8FB1-B60B690BD69B}|E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Web|solutionrelative:vhms\\vhms.web\\frmrate.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC9F862-A6E4-4188-9793-95219643C283}|VHMS\\VHMS.Entity\\VHMS.Entity.csproj|E:\\Web Live Project\\dotnet_Cheran\\vhms\\vhms.entity\\master\\rate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCC9F862-A6E4-4188-9793-95219643C283}|VHMS\\VHMS.Entity\\VHMS.Entity.csproj|solutionrelative:vhms\\vhms.entity\\master\\rate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA8C4A4-DDFD-42F8-8FB1-B60B690BD69B}|E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Web|E:\\Web Live Project\\dotnet_Cheran\\vhms\\vhms.web\\frmagent.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{DEA8C4A4-DDFD-42F8-8FB1-B60B690BD69B}|E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Web|solutionrelative:vhms\\vhms.web\\frmagent.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DCD1A71-81AE-40C2-90B8-5B73887C2A98}|VHMS\\VHMS.DataAccess\\VHMS.DataAccess.csproj|E:\\Web Live Project\\dotnet_Cheran\\vhms\\vhms.dataaccess\\master\\rate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DCD1A71-81AE-40C2-90B8-5B73887C2A98}|VHMS\\VHMS.DataAccess\\VHMS.DataAccess.csproj|solutionrelative:vhms\\vhms.dataaccess\\master\\rate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA8C4A4-DDFD-42F8-8FB1-B60B690BD69B}|E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Web|E:\\Web Live Project\\dotnet_Cheran\\vhms\\vhms.web\\app_code\\vhmsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEA8C4A4-DDFD-42F8-8FB1-B60B690BD69B}|E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Web|solutionrelative:vhms\\vhms.web\\app_code\\vhmsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC9F862-A6E4-4188-9793-95219643C283}|VHMS\\VHMS.Entity\\VHMS.Entity.csproj|E:\\Web Live Project\\dotnet_Cheran\\vhms\\vhms.entity\\master\\agent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCC9F862-A6E4-4188-9793-95219643C283}|VHMS\\VHMS.Entity\\VHMS.Entity.csproj|solutionrelative:vhms\\vhms.entity\\master\\agent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DCD1A71-81AE-40C2-90B8-5B73887C2A98}|VHMS\\VHMS.DataAccess\\VHMS.DataAccess.csproj|E:\\Web Live Project\\dotnet_Cheran\\vhms\\vhms.dataaccess\\master\\agent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DCD1A71-81AE-40C2-90B8-5B73887C2A98}|VHMS\\VHMS.DataAccess\\VHMS.DataAccess.csproj|solutionrelative:vhms\\vhms.dataaccess\\master\\agent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC9F862-A6E4-4188-9793-95219643C283}|VHMS\\VHMS.Entity\\VHMS.Entity.csproj|E:\\Web Live Project\\dotnet_Cheran\\vhms\\vhms.entity\\settings\\storedprocedures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCC9F862-A6E4-4188-9793-95219643C283}|VHMS\\VHMS.Entity\\VHMS.Entity.csproj|solutionrelative:vhms\\vhms.entity\\settings\\storedprocedures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA8C4A4-DDFD-42F8-8FB1-B60B690BD69B}|E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Web|E:\\Web Live Project\\dotnet_Cheran\\vhms\\vhms.web\\frmagent.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEA8C4A4-DDFD-42F8-8FB1-B60B690BD69B}|E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Web|solutionrelative:vhms\\vhms.web\\frmagent.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA8C4A4-DDFD-42F8-8FB1-B60B690BD69B}|E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Web|E:\\Web Live Project\\dotnet_Cheran\\vhms\\vhms.web\\frmrate.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEA8C4A4-DDFD-42F8-8FB1-B60B690BD69B}|E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Web|solutionrelative:vhms\\vhms.web\\frmrate.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA8C4A4-DDFD-42F8-8FB1-B60B690BD69B}|E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Web|E:\\Web Live Project\\dotnet_Cheran\\vhms\\vhms.web\\frmaccessdenied.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{DEA8C4A4-DDFD-42F8-8FB1-B60B690BD69B}|E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Web|solutionrelative:vhms\\vhms.web\\frmaccessdenied.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA8C4A4-DDFD-42F8-8FB1-B60B690BD69B}|E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Web|E:\\Web Live Project\\dotnet_Cheran\\vhms\\vhms.web\\frmemployee.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{DEA8C4A4-DDFD-42F8-8FB1-B60B690BD69B}|E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Web|solutionrelative:vhms\\vhms.web\\frmemployee.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA8C4A4-DDFD-42F8-8FB1-B60B690BD69B}|E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Web|E:\\Web Live Project\\dotnet_Cheran\\vhms\\vhms.web\\app_code\\ivhmsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEA8C4A4-DDFD-42F8-8FB1-B60B690BD69B}|E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Web|solutionrelative:vhms\\vhms.web\\app_code\\ivhmsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DCD1A71-81AE-40C2-90B8-5B73887C2A98}|VHMS\\VHMS.DataAccess\\VHMS.DataAccess.csproj|E:\\Web Live Project\\dotnet_Cheran\\vhms\\vhms.dataaccess\\master\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DCD1A71-81AE-40C2-90B8-5B73887C2A98}|VHMS\\VHMS.DataAccess\\VHMS.DataAccess.csproj|solutionrelative:vhms\\vhms.dataaccess\\master\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC9F862-A6E4-4188-9793-95219643C283}|VHMS\\VHMS.Entity\\VHMS.Entity.csproj|E:\\Web Live Project\\dotnet_Cheran\\vhms\\vhms.entity\\master\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCC9F862-A6E4-4188-9793-95219643C283}|VHMS\\VHMS.Entity\\VHMS.Entity.csproj|solutionrelative:vhms\\vhms.entity\\master\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA8C4A4-DDFD-42F8-8FB1-B60B690BD69B}|E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Web|E:\\Web Live Project\\dotnet_Cheran\\vhms\\vhms.web\\frmemployee.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEA8C4A4-DDFD-42F8-8FB1-B60B690BD69B}|E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Web|solutionrelative:vhms\\vhms.web\\frmemployee.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DCD1A71-81AE-40C2-90B8-5B73887C2A98}|VHMS\\VHMS.DataAccess\\VHMS.DataAccess.csproj|E:\\Web Live Project\\dotnet_Cheran\\vhms\\vhms.dataaccess\\useraccounts\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DCD1A71-81AE-40C2-90B8-5B73887C2A98}|VHMS\\VHMS.DataAccess\\VHMS.DataAccess.csproj|solutionrelative:vhms\\vhms.dataaccess\\useraccounts\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC9F862-A6E4-4188-9793-95219643C283}|VHMS\\VHMS.Entity\\VHMS.Entity.csproj|E:\\Web Live Project\\dotnet_Cheran\\vhms\\vhms.entity\\useraccounts\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCC9F862-A6E4-4188-9793-95219643C283}|VHMS\\VHMS.Entity\\VHMS.Entity.csproj|solutionrelative:vhms\\vhms.entity\\useraccounts\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEA8C4A4-DDFD-42F8-8FB1-B60B690BD69B}|E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Web|E:\\Web Live Project\\dotnet_Cheran\\vhms\\vhms.web\\frmuser.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{DEA8C4A4-DDFD-42F8-8FB1-B60B690BD69B}|E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Web|solutionrelative:vhms\\vhms.web\\frmuser.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Rate.cs",
+              "DocumentMoniker": "E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Entity\\Master\\Rate.cs",
+              "RelativeDocumentMoniker": "VHMS\\VHMS.Entity\\Master\\Rate.cs",
+              "ToolTip": "E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Entity\\Master\\Rate.cs",
+              "RelativeToolTip": "VHMS\\VHMS.Entity\\Master\\Rate.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAkwBIAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T11:42:13.238Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "jRate.js",
+              "DocumentMoniker": "E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Web\\UserDefined_Js\\jRate.js",
+              "RelativeDocumentMoniker": "VHMS\\VHMS.Web\\UserDefined_Js\\jRate.js",
+              "ToolTip": "E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Web\\UserDefined_Js\\jRate.js",
+              "RelativeToolTip": "VHMS\\VHMS.Web\\UserDefined_Js\\jRate.js",
+              "ViewState": "AgIAAL8AAAAAAAAAAAAiwMAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-05T15:47:32.537Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmBilling.aspx.cs",
+              "DocumentMoniker": "E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Web\\frmBilling.aspx.cs",
+              "RelativeDocumentMoniker": "VHMS\\VHMS.Web\\frmBilling.aspx.cs",
+              "ToolTip": "E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Web\\frmBilling.aspx.cs",
+              "RelativeToolTip": "VHMS\\VHMS.Web\\frmBilling.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T08:55:15.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmBilling.aspx",
+              "DocumentMoniker": "E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Web\\frmBilling.aspx",
+              "RelativeDocumentMoniker": "VHMS\\VHMS.Web\\frmBilling.aspx",
+              "ToolTip": "E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Web\\frmBilling.aspx",
+              "RelativeToolTip": "VHMS\\VHMS.Web\\frmBilling.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-07T08:53:48.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmAgent.aspx",
+              "DocumentMoniker": "E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Web\\frmAgent.aspx",
+              "RelativeDocumentMoniker": "VHMS\\VHMS.Web\\frmAgent.aspx",
+              "ToolTip": "E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Web\\frmAgent.aspx",
+              "RelativeToolTip": "VHMS\\VHMS.Web\\frmAgent.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-05T13:50:56.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IVHMSService.cs",
+              "DocumentMoniker": "E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Web\\App_Code\\IVHMSService.cs",
+              "RelativeDocumentMoniker": "VHMS\\VHMS.Web\\App_Code\\IVHMSService.cs",
+              "ToolTip": "E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Web\\App_Code\\IVHMSService.cs",
+              "RelativeToolTip": "VHMS\\VHMS.Web\\App_Code\\IVHMSService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA1wPIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T13:39:46.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Agent.cs",
+              "DocumentMoniker": "E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.DataAccess\\Master\\Agent.cs",
+              "RelativeDocumentMoniker": "VHMS\\VHMS.DataAccess\\Master\\Agent.cs",
+              "ToolTip": "E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.DataAccess\\Master\\Agent.cs",
+              "RelativeToolTip": "VHMS\\VHMS.DataAccess\\Master\\Agent.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAtwH0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T12:04:13.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Agent.cs",
+              "DocumentMoniker": "E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Entity\\Master\\Agent.cs",
+              "RelativeDocumentMoniker": "VHMS\\VHMS.Entity\\Master\\Agent.cs",
+              "ToolTip": "E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Entity\\Master\\Agent.cs",
+              "RelativeToolTip": "VHMS\\VHMS.Entity\\Master\\Agent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T11:44:29.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StoredProcedures.cs",
+              "DocumentMoniker": "E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Entity\\Settings\\StoredProcedures.cs",
+              "RelativeDocumentMoniker": "VHMS\\VHMS.Entity\\Settings\\StoredProcedures.cs",
+              "ToolTip": "E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Entity\\Settings\\StoredProcedures.cs",
+              "RelativeToolTip": "VHMS\\VHMS.Entity\\Settings\\StoredProcedures.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAIAwwFYAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T11:35:35.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Rate.cs",
+              "DocumentMoniker": "E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.DataAccess\\Master\\Rate.cs",
+              "RelativeDocumentMoniker": "VHMS\\VHMS.DataAccess\\Master\\Rate.cs",
+              "ToolTip": "E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.DataAccess\\Master\\Rate.cs",
+              "RelativeToolTip": "VHMS\\VHMS.DataAccess\\Master\\Rate.cs",
+              "ViewState": "AgIAAEoBAAAAAAAAAAAnwEwBAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T11:49:15.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmRate.aspx",
+              "DocumentMoniker": "E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Web\\frmRate.aspx",
+              "RelativeDocumentMoniker": "VHMS\\VHMS.Web\\frmRate.aspx",
+              "ToolTip": "E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Web\\frmRate.aspx",
+              "RelativeToolTip": "VHMS\\VHMS.Web\\frmRate.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-05T13:51:15.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "VHMSService.cs",
+              "DocumentMoniker": "E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Web\\App_Code\\VHMSService.cs",
+              "RelativeDocumentMoniker": "VHMS\\VHMS.Web\\App_Code\\VHMSService.cs",
+              "ToolTip": "E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Web\\App_Code\\VHMSService.cs",
+              "RelativeToolTip": "VHMS\\VHMS.Web\\App_Code\\VHMSService.cs",
+              "ViewState": "AgIAAMMHAAAAAAAAAAAtwOYHAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T13:48:34.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "frmAgent.aspx.cs",
+              "DocumentMoniker": "E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Web\\frmAgent.aspx.cs",
+              "RelativeDocumentMoniker": "VHMS\\VHMS.Web\\frmAgent.aspx.cs",
+              "ToolTip": "E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Web\\frmAgent.aspx.cs",
+              "RelativeToolTip": "VHMS\\VHMS.Web\\frmAgent.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T20:15:32.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "frmRate.aspx.cs",
+              "DocumentMoniker": "E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Web\\frmRate.aspx.cs",
+              "RelativeDocumentMoniker": "VHMS\\VHMS.Web\\frmRate.aspx.cs",
+              "ToolTip": "E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Web\\frmRate.aspx.cs",
+              "RelativeToolTip": "VHMS\\VHMS.Web\\frmRate.aspx.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T15:13:45.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "frmAccessDenied.aspx",
+              "DocumentMoniker": "E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Web\\frmAccessDenied.aspx",
+              "RelativeDocumentMoniker": "VHMS\\VHMS.Web\\frmAccessDenied.aspx",
+              "ToolTip": "E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Web\\frmAccessDenied.aspx",
+              "RelativeToolTip": "VHMS\\VHMS.Web\\frmAccessDenied.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-05T16:26:15.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "frmEmployee.aspx.cs",
+              "DocumentMoniker": "E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Web\\frmEmployee.aspx.cs",
+              "RelativeDocumentMoniker": "VHMS\\VHMS.Web\\frmEmployee.aspx.cs",
+              "ToolTip": "E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Web\\frmEmployee.aspx.cs",
+              "RelativeToolTip": "VHMS\\VHMS.Web\\frmEmployee.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T09:11:06.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "frmEmployee.aspx",
+              "DocumentMoniker": "E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Web\\frmEmployee.aspx",
+              "RelativeDocumentMoniker": "VHMS\\VHMS.Web\\frmEmployee.aspx",
+              "ToolTip": "E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Web\\frmEmployee.aspx",
+              "RelativeToolTip": "VHMS\\VHMS.Web\\frmEmployee.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-02T11:40:17.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Entity\\Master\\Employee.cs",
+              "RelativeDocumentMoniker": "VHMS\\VHMS.Entity\\Master\\Employee.cs",
+              "ToolTip": "E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Entity\\Master\\Employee.cs",
+              "RelativeToolTip": "VHMS\\VHMS.Entity\\Master\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T11:30:57.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.DataAccess\\Master\\Employee.cs",
+              "RelativeDocumentMoniker": "VHMS\\VHMS.DataAccess\\Master\\Employee.cs",
+              "ToolTip": "E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.DataAccess\\Master\\Employee.cs",
+              "RelativeToolTip": "VHMS\\VHMS.DataAccess\\Master\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T11:30:53.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "frmUser.aspx",
+              "DocumentMoniker": "E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Web\\frmUser.aspx",
+              "RelativeDocumentMoniker": "VHMS\\VHMS.Web\\frmUser.aspx",
+              "ToolTip": "E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Web\\frmUser.aspx",
+              "RelativeToolTip": "VHMS\\VHMS.Web\\frmUser.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-02T11:46:31.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Entity\\UserAccounts\\User.cs",
+              "RelativeDocumentMoniker": "VHMS\\VHMS.Entity\\UserAccounts\\User.cs",
+              "ToolTip": "E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.Entity\\UserAccounts\\User.cs",
+              "RelativeToolTip": "VHMS\\VHMS.Entity\\UserAccounts\\User.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA3wA4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T11:24:33.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.DataAccess\\UserAccounts\\User.cs",
+              "RelativeDocumentMoniker": "VHMS\\VHMS.DataAccess\\UserAccounts\\User.cs",
+              "ToolTip": "E:\\Web Live Project\\dotnet_Cheran\\VHMS\\VHMS.DataAccess\\UserAccounts\\User.cs",
+              "RelativeToolTip": "VHMS\\VHMS.DataAccess\\UserAccounts\\User.cs",
+              "ViewState": "AgIAAP4AAAAAAAAAAAAtwBEBAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T11:24:20.189Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -53,6 +53,8 @@
     <Compile Include="Billing\Payment.cs" />
     <Compile Include="Machines.cs" />
     <Compile Include="Framework.cs" />
+    <Compile Include="Master\Agent.cs" />
+    <Compile Include="Master\Rate.cs" />
     <Compile Include="Master\Employee.cs" />
     <Compile Include="Master\Dashboard.cs" />
     <Compile Include="Master\FinancialYear.cs" />

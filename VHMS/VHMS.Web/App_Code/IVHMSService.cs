@@ -149,19 +149,14 @@ public partial interface IVHMSService
     string UpdateMachines(VHMS.Entity.Machines Objdata);
     #endregion
 
-    #region "Master"
-    #region State
-
-    [OperationContract]
-    [WebInvoke(Method = "POST", ResponseFormat = WebMessageFormat.Json)]
-    string GetDashboardCount();
-
-    #endregion
-
     #region State
     [OperationContract]
     [WebInvoke(Method = "POST", ResponseFormat = WebMessageFormat.Json)]
     string GetState();
+
+    [OperationContract]
+    [WebInvoke(Method = "POST", ResponseFormat = WebMessageFormat.Json)]
+    string GetDashboardCount();
 
     [OperationContract]
     [WebInvoke(Method = "POST", ResponseFormat = WebMessageFormat.Json)]
@@ -223,5 +218,49 @@ public partial interface IVHMSService
     [WebInvoke(Method = "POST", ResponseFormat = WebMessageFormat.Json)]
     string DeleteFinancialYear(int ID);
     #endregion
+
+    #region Agent
+    [OperationContract]
+    [WebInvoke(Method = "POST", ResponseFormat = WebMessageFormat.Json)]
+    string GetAgent();
+
+    [OperationContract]
+    [WebInvoke(Method = "POST", ResponseFormat = WebMessageFormat.Json)]
+    string GetAgentByID(int ID);
+
+    [OperationContract]
+    [WebInvoke(Method = "POST", ResponseFormat = WebMessageFormat.Json)]
+    string AddAgent(VHMS.Entity.Agent Objdata);
+
+    [OperationContract]
+    [WebInvoke(Method = "POST", ResponseFormat = WebMessageFormat.Json)]
+    string UpdateAgent(VHMS.Entity.Agent Objdata);
+
+    [OperationContract]
+    [WebInvoke(Method = "POST", ResponseFormat = WebMessageFormat.Json)]
+    string DeleteAgent(int ID);
     #endregion
+
+    #region Rate
+    [OperationContract]
+    [WebInvoke(Method = "POST", ResponseFormat = WebMessageFormat.Json)]
+    string GetRate();
+
+    [OperationContract]
+    [WebInvoke(Method = "POST", ResponseFormat = WebMessageFormat.Json)]
+    string GetRateByID(int ID);
+
+    [OperationContract]
+    [WebInvoke(Method = "POST", ResponseFormat = WebMessageFormat.Json)]
+    string AddRate(VHMS.Entity.Rate Objdata);
+
+    [OperationContract]
+    [WebInvoke(Method = "POST", ResponseFormat = WebMessageFormat.Json)]
+    string UpdateRate(VHMS.Entity.Rate Objdata);
+
+    [OperationContract]
+    [WebInvoke(Method = "POST", ResponseFormat = WebMessageFormat.Json)]
+    string DeleteRate(int ID);
+    #endregion
+
 }

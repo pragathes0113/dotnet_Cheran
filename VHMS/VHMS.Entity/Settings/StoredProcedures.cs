@@ -57,7 +57,7 @@
         public const string USP_INSERT_EMPLOYEE = "usp_Insert_Employee";
         public const string USP_UPDATE_EMPLOYEE = "usp_Update_Employee";
         public const string USP_DELETE_EMPLOYEE = "usp_Delete_Employee";
-        public const string USP_SELECT_EMPLOYEE = "usp_Select_EMployee";
+        public const string USP_SELECT_EMPLOYEE = "usp_Select_Employee";
         public const string USP_UPDATE_EMPLOYEE_AMOUNT = "usp_Update_Employee_Amount";
         public const string USP_RESET_PASSWORD = "usp_Reset_Password";
         //FinancialYear
@@ -71,11 +71,20 @@
         public const string USP_UPDATE_STATE = "usp_Update_State";
         public const string USP_DELETE_STATE = "usp_Delete_State";
         public const string USP_SELECT_STATE = "usp_Select_State";
-
-
         public const string USP_SELECT_DASHBOARD = "usp_Select_Dashboard";
         public const string USP_SELECT_RECENTADMISSION = "usp_Select_RecentAdmission";
         public const string USP_INSERT_SMSLOG = "usp_Insert_SMSLog";
 
+        //Rate 
+        public const string USP_INSERT_RATE = "usp_Insert_Rate";
+        public const string USP_UPDATE_RATE = "usp_Update_Rate";
+        public const string USP_DELETE_RATE = "usp_Delete_Rate";
+        public const string USP_SELECT_RATE = "usp_Select_Rate";
+
+        //Agent
+        public const string USP_SELECT_AGENT = "usp_Select_Agent";
+        public const string USP_DELETE_AGENT = "usp_Delete_Agent";
+        public const string USP_INSERT_AGENT = "usp_Insert_Agent";
+        public const string USP_UPDATE_AGENT = "usp_Update_Agent";
     }
 }

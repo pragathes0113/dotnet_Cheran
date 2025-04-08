@@ -582,8 +582,8 @@
                                             else { TypeStatus = "<span class='label label-warning'>Inactive</span>"; }
                                             var table = "<tr id='" + obj[index].UserID + "'>";
                                             table += "<td>" + (index + 1) + "</td>";
-                                            table += "<td>" + obj[index].EmployeeName + "</td>";
-                                            table += "<td>" + obj[index].EmployeeCode + "</td>";
+                                            table += "<td>" + obj[index].Employee.EmployeeName + "</td>";
+                                            table += "<td>" + obj[index].Employee.PhoneNo1 + "</td>";
                                             table += "<td>" + obj[index].RoleName + "</td>";
                                             table += "<td>" + obj[index].UserName + "</td>";
                                             table += "<td>" + obj[index].Password + "</td>";

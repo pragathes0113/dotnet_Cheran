@@ -161,6 +161,7 @@ namespace VHMS.DataAccess
                         objUser.Machines = ObjMachines;
                         ObjEmployee.EmployeeID = Convert.ToInt32(drData["FK_EmployeeID"]);
                         ObjEmployee.EmployeeName = Convert.ToString(drData["EmployeeName"]);
+                        ObjEmployee.PhoneNo1 = Convert.ToString(drData["PhoneNo1"]);
                         objUser.Employee = ObjEmployee;
                         objList.Add(objUser);
                     }

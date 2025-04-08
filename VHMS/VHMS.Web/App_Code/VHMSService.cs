@@ -1282,8 +1282,6 @@ public partial class VHMSService : IVHMSService
     }
     #endregion
 
-    #region "Master"
-
     #region "Dashboard"
     public string GetDashboardCount()
     {
@@ -1963,5 +1961,428 @@ public partial class VHMSService : IVHMSService
     }
     #endregion
 
+    #region "Rate"
+    public string GetRate()
+    {
+        string sException = string.Empty;
+        string sFileNames = string.Empty;
+        JavaScriptSerializer jsObject = new JavaScriptSerializer();
+        VHMS.Entity.Response objResponse = new VHMS.Entity.Response();
+        try
+        {
+            if (ValidateSession())
+            {
+                Collection<VHMS.Entity.Rate> ObjList = new Collection<VHMS.Entity.Rate>();
+                ObjList = VHMS.DataAccess.Rate.GetRate();
+                objResponse.Status = "Success";
+                objResponse.Value = ObjList.Count > 0 ? jsObject.Serialize(ObjList) : "NoRecord";
+            }
+            else
+            {
+                objResponse.Status = "Error";
+                objResponse.Value = "0";
+            }
+        }
+        catch (Exception ex)
+        {
+            sException = "VHMSService.Rate GetRate |" + ex.Message.ToString();
+            Log.Write(sException);
+            objResponse.Status = "Error";
+            objResponse.Value = "Error";
+        }
+        return jsObject.Serialize(objResponse);
+    }
+    public string GetRateByID(int ID)
+    {
+        string sException = string.Empty;
+        string sFileNames = string.Empty;
+        JavaScriptSerializer jsObject = new JavaScriptSerializer();
+        VHMS.Entity.Response objResponse = new VHMS.Entity.Response();
+        try
+        {
+            if (ValidateSession())
+            {
+                VHMS.Entity.Rate objState = new VHMS.Entity.Rate();
+                objState = VHMS.DataAccess.Rate.GetRateByID(ID);
+                if (objState.RateID > 0)
+                {
+                    objResponse.Status = "Success";
+                    objResponse.Value = jsObject.Serialize(objState);
+                }
+                else
+                {
+                    objResponse.Status = "Success";
+                    objResponse.Value = "NoRecord";
+                }
+            }
+            else
+            {
+                objResponse.Status = "Error";
+                objResponse.Value = "0";
+            }
+        }
+        catch (Exception ex)
+        {
+            sException = "VHMSService.Rate GetRateByID |" + ex.Message.ToString();
+            Log.Write(sException);
+            objResponse.Status = "Error";
+            objResponse.Value = "Error";
+        }
+        return jsObject.Serialize(objResponse);
+    }
+    public string AddRate(VHMS.Entity.Rate Objdata)
+    {
+        string sException = string.Empty;
+        JavaScriptSerializer jsonObject = new JavaScriptSerializer();
+        VHMS.Entity.Response objResponse = new VHMS.Entity.Response();
+        int iStateId = 0;
+        int iUserID = 0;
+        try
+        {
+            if (ValidateSession() && Int32.TryParse(HttpContext.Current.Session["UserID"].ToString(), out iUserID))
+            {
+                VHMS.Entity.User objUser = new VHMS.Entity.User();
+                objUser.UserID = iUserID;
+                Objdata.CreatedBy = objUser;
+                iStateId = VHMS.DataAccess.Rate.AddRate(Objdata);
+                if (iStateId > 0)
+                {
+                    objResponse.Status = "Success";
+                    objResponse.Value = iStateId.ToString();
+                }
+            }
+            else
+            {
+                objResponse.Status = "Error";
+                objResponse.Value = "0";
+            }
+        }
+        catch (Exception ex)
+        {
+            sException = "VHMSService.Rate AddRate |" + ex.Message.ToString();
+            Log.Write(sException);
+            if (ex.Message.ToString() == "Rate_A_01")
+            {
+                objResponse.Status = "Error";
+                objResponse.Value = ex.Message.ToString();
+            }
+            else
+            {
+                objResponse.Status = "Error";
+                objResponse.Value = "Error";
+            }
+        }
+        return jsonObject.Serialize(objResponse);
+    }
+    public string UpdateRate(VHMS.Entity.Rate Objdata)
+    {
+        string sStateId = string.Empty;
+        string sException = string.Empty;
+        bool bState = false;
+        JavaScriptSerializer jsonObject = new JavaScriptSerializer();
+        VHMS.Entity.Response objResponse = new VHMS.Entity.Response();
+        try
+        {
+            int UserID = 0;
+            if (ValidateSession() && Int32.TryParse(HttpContext.Current.Session["UserID"].ToString(), out UserID))
+            {
+                VHMS.Entity.User objUser = new VHMS.Entity.User();
+                objUser.UserID = UserID;
+                Objdata.ModifiedBy = objUser;
+                bState = VHMS.DataAccess.Rate.UpdateRate(Objdata);
+                if (bState == true)
+                {
+                    objResponse.Status = "Success";
+                    objResponse.Value = "1";
+                }
+                else
+                {
+                    objResponse.Status = "Success";
+                    objResponse.Value = "0";
+                }
+            }
+            else
+            {
+                objResponse.Status = "Error";
+                objResponse.Value = "0";
+            }
+        }
+        catch (Exception ex)
+        {
+            sException = "VHMSService.Rate UpdateRate |" + ex.Message.ToString();
+            Log.Write(sException);
+            if (ex.Message.ToString() == "Rate_U_01")
+            {
+                objResponse.Status = "Error";
+                objResponse.Value = ex.Message.ToString();
+            }
+            else
+            {
+                objResponse.Status = "Error";
+                objResponse.Value = "0";
+            }
+        }
+        return jsonObject.Serialize(objResponse);
+    }
+    public string DeleteRate(int ID)
+    {
+        string sStateId = string.Empty;
+        string sException = string.Empty;
+        JavaScriptSerializer jsonObject = new JavaScriptSerializer();
+        VHMS.Entity.Response objResponse = new VHMS.Entity.Response();
+        bool bState = false;
+        try
+        {
+            int UserID = 0;
+            if (ValidateSession() && Int32.TryParse(HttpContext.Current.Session["UserID"].ToString(), out UserID))
+            {
+                bState = VHMS.DataAccess.Rate.DeleteRate(ID, UserID);
+                if (bState == true)
+                {
+                    objResponse.Status = "Success";
+                    objResponse.Value = "1";
+                }
+                else
+                {
+                    objResponse.Status = "Success";
+                    objResponse.Value = "0";
+                }
+            }
+            else
+            {
+                objResponse.Status = "Error";
+                objResponse.Value = "0";
+            }
+        }
+        catch (Exception ex)
+        {
+            sException = "VHMSService.Rate DeleteRate |" + ex.Message.ToString();
+            Log.Write(sException);
+            if (ex.Message.ToString() == "Rate_R_01" || ex.Message.ToString() == "Rate_D_01")
+            {
+                objResponse.Status = "Error";
+                objResponse.Value = ex.Message.ToString();
+            }
+            else
+            {
+                objResponse.Status = "Error";
+                objResponse.Value = "0";
+            }
+        }
+        return jsonObject.Serialize(objResponse);
+    }
     #endregion
+
+    #region "Agent"
+    public string GetAgent()
+    {
+        string sException = string.Empty;
+        string sFileNames = string.Empty;
+        JavaScriptSerializer jsObject = new JavaScriptSerializer();
+        VHMS.Entity.Response objResponse = new VHMS.Entity.Response();
+        try
+        {
+            if (ValidateSession())
+            {
+                Collection<VHMS.Entity.Agent> ObjList = new Collection<VHMS.Entity.Agent>();
+                ObjList = VHMS.DataAccess.Agent.GetAgent();
+                objResponse.Status = "Success";
+                objResponse.Value = ObjList.Count > 0 ? jsObject.Serialize(ObjList) : "NoRecord";
+            }
+            else
+            {
+                objResponse.Status = "Error";
+                objResponse.Value = "0";
+            }
+        }
+        catch (Exception ex)
+        {
+            sException = "VHMSService.Agent GetAgent |" + ex.Message.ToString();
+            Log.Write(sException);
+            objResponse.Status = "Error";
+            objResponse.Value = "Error";
+        }
+        return jsObject.Serialize(objResponse);
+    }
+    public string GetAgentByID(int ID)
+    {
+        string sException = string.Empty;
+        string sFileNames = string.Empty;
+        JavaScriptSerializer jsObject = new JavaScriptSerializer();
+        VHMS.Entity.Response objResponse = new VHMS.Entity.Response();
+        try
+        {
+            if (ValidateSession())
+            {
+                VHMS.Entity.Agent objState = new VHMS.Entity.Agent();
+                objState = VHMS.DataAccess.Agent.GetAgentByID(ID);
+                if (objState.AgentID > 0)
+                {
+                    objResponse.Status = "Success";
+                    objResponse.Value = jsObject.Serialize(objState);
+                }
+                else
+                {
+                    objResponse.Status = "Success";
+                    objResponse.Value = "NoRecord";
+                }
+            }
+            else
+            {
+                objResponse.Status = "Error";
+                objResponse.Value = "0";
+            }
+        }
+        catch (Exception ex)
+        {
+            sException = "VHMSService.Agent GetAgentByID |" + ex.Message.ToString();
+            Log.Write(sException);
+            objResponse.Status = "Error";
+            objResponse.Value = "Error";
+        }
+        return jsObject.Serialize(objResponse);
+    }
+    public string AddAgent(VHMS.Entity.Agent Objdata)
+    {
+        string sException = string.Empty;
+        JavaScriptSerializer jsonObject = new JavaScriptSerializer();
+        VHMS.Entity.Response objResponse = new VHMS.Entity.Response();
+        int iStateId = 0;
+        int iUserID = 0;
+        try
+        {
+            if (ValidateSession() && Int32.TryParse(HttpContext.Current.Session["UserID"].ToString(), out iUserID))
+            {
+                VHMS.Entity.User objUser = new VHMS.Entity.User();
+                objUser.UserID = iUserID;
+                Objdata.CreatedBy = objUser;
+                iStateId = VHMS.DataAccess.Agent.AddAgent(Objdata);
+                if (iStateId > 0)
+                {
+                    objResponse.Status = "Success";
+                    objResponse.Value = iStateId.ToString();
+                }
+            }
+            else
+            {
+                objResponse.Status = "Error";
+                objResponse.Value = "0";
+            }
+        }
+        catch (Exception ex)
+        {
+            sException = "VHMSService.Agent AddAgent |" + ex.Message.ToString();
+            Log.Write(sException);
+            if (ex.Message.ToString() == "Agent_A_01")
+            {
+                objResponse.Status = "Error";
+                objResponse.Value = ex.Message.ToString();
+            }
+            else
+            {
+                objResponse.Status = "Error";
+                objResponse.Value = "Error";
+            }
+        }
+        return jsonObject.Serialize(objResponse);
+    }
+    public string UpdateAgent(VHMS.Entity.Agent Objdata)
+    {
+        string sStateId = string.Empty;
+        string sException = string.Empty;
+        bool bState = false;
+        JavaScriptSerializer jsonObject = new JavaScriptSerializer();
+        VHMS.Entity.Response objResponse = new VHMS.Entity.Response();
+        try
+        {
+            int UserID = 0;
+            if (ValidateSession() && Int32.TryParse(HttpContext.Current.Session["UserID"].ToString(), out UserID))
+            {
+                VHMS.Entity.User objUser = new VHMS.Entity.User();
+                objUser.UserID = UserID;
+                Objdata.ModifiedBy = objUser;
+                bState = VHMS.DataAccess.Agent.UpdateAgent(Objdata);
+                if (bState == true)
+                {
+                    objResponse.Status = "Success";
+                    objResponse.Value = "1";
+                }
+                else
+                {
+                    objResponse.Status = "Success";
+                    objResponse.Value = "0";
+                }
+            }
+            else
+            {
+                objResponse.Status = "Error";
+                objResponse.Value = "0";
+            }
+        }
+        catch (Exception ex)
+        {
+            sException = "VHMSService.Agent UpdateAgent |" + ex.Message.ToString();
+            Log.Write(sException);
+            if (ex.Message.ToString() == "Agent_U_01")
+            {
+                objResponse.Status = "Error";
+                objResponse.Value = ex.Message.ToString();
+            }
+            else
+            {
+                objResponse.Status = "Error";
+                objResponse.Value = "0";
+            }
+        }
+        return jsonObject.Serialize(objResponse);
+    }
+    public string DeleteAgent(int ID)
+    {
+        string sStateId = string.Empty;
+        string sException = string.Empty;
+        JavaScriptSerializer jsonObject = new JavaScriptSerializer();
+        VHMS.Entity.Response objResponse = new VHMS.Entity.Response();
+        bool bState = false;
+        try
+        {
+            int UserID = 0;
+            if (ValidateSession() && Int32.TryParse(HttpContext.Current.Session["UserID"].ToString(), out UserID))
+            {
+                bState = VHMS.DataAccess.Agent.DeleteAgent(ID, UserID);
+                if (bState == true)
+                {
+                    objResponse.Status = "Success";
+                    objResponse.Value = "1";
+                }
+                else
+                {
+                    objResponse.Status = "Success";
+                    objResponse.Value = "0";
+                }
+            }
+            else
+            {
+                objResponse.Status = "Error";
+                objResponse.Value = "0";
+            }
+        }
+        catch (Exception ex)
+        {
+            sException = "VHMSService.Agent DeleteAgent |" + ex.Message.ToString();
+            Log.Write(sException);
+            if (ex.Message.ToString() == "Agent_R_01" || ex.Message.ToString() == "Agent_D_01")
+            {
+                objResponse.Status = "Error";
+                objResponse.Value = ex.Message.ToString();
+            }
+            else
+            {
+                objResponse.Status = "Error";
+                objResponse.Value = "0";
+            }
+        }
+        return jsonObject.Serialize(objResponse);
+    }
+    #endregion
+
 }

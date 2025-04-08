@@ -7,7 +7,6 @@ namespace VHMS.Entity
 {
     public class Employee
     {
-
         public int EmployeeID { get; set; }
         public string EmployeeName { get; set; }
         public string Address { get; set; }
@@ -24,8 +23,5 @@ namespace VHMS.Entity
         public DateTime CreatedOn { get; set; }
         public User ModifiedBy { get; set; }
         public DateTime ModifiedOn { get; set; }
-          
-
-        
     }
 }

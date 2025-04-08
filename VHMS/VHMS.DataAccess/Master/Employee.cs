@@ -33,7 +33,6 @@ namespace VHMS.DataAccess
                     foreach (DataRow drData in dsList.Tables[0].Rows)
                     {
                         objEmployee = new Entity.Employee();
-                        
                         objCreatedUser = new Entity.User();
                         objModifiedUser = new Entity.User();
                         objEmployee.EmployeeID = Convert.ToInt32(drData["PK_EmployeeID"]);
@@ -148,8 +147,8 @@ namespace VHMS.DataAccess
                 oDb.AddInParameter(cmd, "@Dateofjoin", DbType.String, objEmployee.sDateofjoin);
                 oDb.AddInParameter(cmd, "@IDProof", DbType.String, objEmployee.IDProof);
                 oDb.AddInParameter(cmd, "@BloodGroup", DbType.String, objEmployee.BloodGroup);
-                oDb.AddInParameter(cmd, "@Gender", DbType.String, objEmployee.Gender);
                 oDb.AddInParameter(cmd, "@IsActive", DbType.Boolean, objEmployee.IsActive);
+                oDb.AddInParameter(cmd, "@BasicPay", DbType.Decimal, objEmployee.BasicPay);
                 oDb.AddInParameter(cmd, "@FK_CreatedBy", DbType.Int32, objEmployee.CreatedBy.UserID);
 
                 iID = oDb.ExecuteNonQuery(cmd, oTrans);
@@ -209,10 +208,9 @@ namespace VHMS.DataAccess
                 oDb.AddInParameter(cmd, "@Dateofjoin", DbType.String, objEmployee.sDateofjoin);
                 oDb.AddInParameter(cmd, "@IDProof", DbType.String, objEmployee.IDProof);
                 oDb.AddInParameter(cmd, "@BloodGroup", DbType.String, objEmployee.BloodGroup);
-                oDb.AddInParameter(cmd, "@Gender", DbType.String, objEmployee.Gender);
+                oDb.AddInParameter(cmd, "@BasicPay", DbType.Decimal, objEmployee.BasicPay);
                 oDb.AddInParameter(cmd, "@IsActive", DbType.Boolean, objEmployee.IsActive);
                 oDb.AddInParameter(cmd, "@FK_ModifiedBy", DbType.Int32, objEmployee.ModifiedBy.UserID);
-
                 iID = oDb.ExecuteNonQuery(cmd);
                 if (iID != 0) bResult = true;
             }
